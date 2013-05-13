@@ -1,0 +1,22 @@
+{
+  "name": "passport.socket.io",
+  "version": "0.0.0",
+  "description": "passport.socket.io allows your socket.io connections to have access to your passportjs login session.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markwillis82/passport-socket.io.git"
+  },
+  "keywords": [
+    "passportjs",
+    "sessions",
+    "socket.io",
+    "express"
+  ],
+  "author": "Mark Willis",
+  "license": "BSD",
+  "readmeFilename": "Readme.md"
+}
