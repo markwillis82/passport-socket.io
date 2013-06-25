@@ -9,7 +9,7 @@ var passportSocketio = function(cookieParser, sessionStore, cookie){
                 if(err){
                     return accept('COOKIE_PARSE_ERROR');
                 }
-                var sessionId = data.signedCookies[_cookie];
+                var sessionId = data.cookies[_cookie];
                 _sessionStore.get(sessionId, function(err, session){
                     console.log('in auth: session: ', session);
                     console.log('in auth: sessionId: ', sessionId);
